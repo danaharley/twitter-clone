@@ -2,8 +2,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && sanity build public -y",
-    "start": "next start && sanity start",
+    "build": "next build",
+    "start": "next start",
     "test": "sanity check"
   },
   "dependencies": {
