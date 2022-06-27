@@ -10,4 +10,7 @@ export default NextAuth({
       version: "2.0", // opt-in to Twitter OAuth 2.0
     }),
   ],
+  pages: {
+    signIn: '/api/auth'
+  },
 });
